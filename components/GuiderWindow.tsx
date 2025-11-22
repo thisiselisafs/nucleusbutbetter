@@ -132,7 +132,7 @@ export const GuiderWindow: React.FC<GuiderWindowProps> = ({ onNext, onBack, curr
       }}
       className={`
         absolute bottom-8 left-1/2 z-50 w-[85%] max-w-[340px] 
-        bg-[#2f484f] text-white rounded-[20px] p-6 
+        bg-[#2f484f] text-white rounded-[20px] p-6 font-sans
         shadow-[0_20px_50px_-12px_rgba(0,0,0,0.5)] 
         border border-white/10 cursor-grab active:cursor-grabbing select-none
         ${!hasInteracted ? 'animate-in slide-in-from-bottom-10 fade-in duration-700' : ''}

@@ -22,7 +22,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${inter.variable} ${playfair.variable} bg-beige-100 text-stone-800 antialiased h-screen overflow-hidden flex items-center justify-center`}>
+      <body className={`${inter.variable} ${playfair.variable} font-sans bg-beige-100 text-stone-800 antialiased h-screen overflow-hidden flex items-center justify-center`}>
         <div id="root" className="w-full h-full flex items-center justify-center">
            {children}
         </div>
